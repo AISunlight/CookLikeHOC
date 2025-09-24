@@ -16,7 +16,7 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: '首页', link: '/' },
-      ...nav,
+      ...(nav.filter(item => item.text !== 'images')),
       { text: 'GitHub', link: 'https://github.com/Gar-b-age/CookLikeHOC' },
     ],
     sidebar,
