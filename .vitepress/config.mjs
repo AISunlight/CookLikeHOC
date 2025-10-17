@@ -25,5 +25,12 @@ export default defineConfig({
     docFooter: { prev: '上一页', next: '下一页' },
     lastUpdatedText: '上次更新',
   },
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-5382979479604904' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-862FZEE6QC' }],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5382979479604904' }],
+    ['script', {  }, `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'G-862FZEE6QC');`],
+  ],
   vite: { server: { host: true } },
 })
