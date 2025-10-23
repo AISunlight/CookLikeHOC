@@ -8,9 +8,6 @@ hero:
     - theme: brand
       text: 开始浏览
       link: /炒菜/README
-    - theme: alt
-      text: GitHub
-      link: https://github.com/Gar-b-age/CookLikeHOC
 features:
   - title: 开始做菜吗
     details: 好
